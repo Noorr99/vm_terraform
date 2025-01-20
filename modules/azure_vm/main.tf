@@ -54,8 +54,7 @@ resource "azurerm_linux_virtual_machine" "vm" {
     sku       = "18.04-LTS"
     version   = "latest"
   }
-}
-
-tags = {
-  environment = "test"
+    tags = {
+    environment = "test"
+  }
 }
